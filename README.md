@@ -1,5 +1,9 @@
 # webexten-models
 
+> ⚠️ **Superseded (2026-08).** The canonical model home is now Hugging Face:
+> [`darshan12222/lucid-nsfw-4class`](https://huggingface.co/darshan12222/lucid-nsfw-4class)
+> (4-class v1.2.0 + model card). The releases below are kept as an archive/mirror.
+
 > **Trained models for the [Lucid](https://github.com/darshanbajgain/webexten) browser extension** — hosted as public GitHub Release assets so the extension can lazy-load them on first use rather than ship them in the .zip.
 
 This repo is a model registry. It exists so the main Lucid extension can stay small (~11 MB, mostly the ONNX runtime WASM) and fetch the ~22 MB classifier from a stable, versioned URL — cached in the browser after first load.
